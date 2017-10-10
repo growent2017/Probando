@@ -61,7 +61,7 @@
 
             android:layout_margin="@dimen/default_margin"
             android:numStars="5"
-            android:rating="3"/>
+            android:rating="2"/>
         <Button
             android:id="@+id/enterButton"
             android:layout_width="wrap_content"
