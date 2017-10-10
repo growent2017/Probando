@@ -14,9 +14,9 @@
             android:id="@+id/nameTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Name: "
-            android:hint="Name: "
-            android:textSize="30dp"
+            android:text="@string/name"
+            android:hint="@string/name"
+            android:textSize="30sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_margin="@dimen/default_margin"
@@ -26,7 +26,7 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:hint="Enter Name"
+            android:hint="@string/enter_name"
             app:layout_constraintStart_toEndOf="@id/nameTextView"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_margin="@dimen/default_margin"
@@ -35,8 +35,8 @@
             android:id="@+id/descriptionTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Description: "
-            android:textSize="30dp"
+            android:text="@string/description"
+            android:textSize="30sp"
             app:layout_constraintTop_toBottomOf="@+id/nameTextView"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_margin="@dimen/default_margin"
@@ -46,7 +46,7 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:hint="Enter Description"
+            android:hint="@string/enter_description"
             android:layout_margin="@dimen/default_margin"
             app:layout_constraintTop_toBottomOf="@+id/nameTextView"
             app:layout_constraintStart_toEndOf="@id/descriptionTextView"
@@ -61,7 +61,7 @@
 
             android:layout_margin="@dimen/default_margin"
             android:numStars="5"
-            android:rating="2"/>
+            android:rating="5"/>
         <Button
             android:id="@+id/enterButton"
             android:layout_width="wrap_content"
@@ -69,7 +69,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/rate2RatingBar"
-            android:text="Save Changues"
+            android:text="@string/save_changues"
             />
     </android.support.constraint.ConstraintLayout>
 </FrameLayout>
